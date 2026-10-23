@@ -50,6 +50,7 @@ SHA256: 2ab67fb3adeafe25bf12bd8502287e55294374a5e06366a22d0a0faf96d864e0
 Description: Fixes SSL/TLS protocols and communications from iPhoneOS 2 to iOS 9, so that these devices can talk to any modern cypher-enabled server or service again.
 Name: TLSFix
 Author: nfzerox, Requis
+Depiction: https://alkoofee.github.io/repo/depictions/?p=com.skyglow.tlsfix
 Conflicts: com.tlsfix
 
 Package: com.victorlobe.appstorefix
