@@ -1,0 +1,224 @@
+Package: ai.akemi.appsyncunified
+Version: 116.0
+Section: Tweaks
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
+Architecture: iphoneos-arm
+Filename: ./debs/ai.akemi.appsyncunified_116.0_iphoneos-arm.akemi-git-235aca6cddfbdc9fa87fcb5b2aec2df37ed6d65a.deb
+Size: 51658
+MD5sum: 536009a11dad57e48a5563224eaffaff
+SHA256: 0036f28fcbdb165d4f58968a237ca9fe7b6ed33fea25b9a5eb1fc141f6bf5a09
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Name: AppSync Unified
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (< 1.1)
+Homepage: https://cydia.akemi.ai/
+Provides: appsync, net.angelxwind.appsyncunified
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Installed-Size: 636
+
+Package: applist
+Version: 1.5.16
+Section: System
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
+Architecture: iphoneos-arm
+Filename: ./debs/applist_1.5.16_iphoneos-arm.deb
+Size: 105098
+MD5sum: af1bdc77dd1805c249d416fa96957841
+SHA256: b20901679ecd9a607636dd69d1c42fe074f6a3e8a5c21c20ecef893f1a9a4a7e
+Description: Allow extensions to read the list of installed apps
+Name: AppList
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+dev: rpetrich
+Installed-Size: 780
+
+Package: com.skyglow.tlsfix
+Version: 1.1
+Section: Tweaks
+Maintainer: nfzerox, Requis
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/com.skyglow.tlsfix_1.1.deb
+Size: 3311252
+MD5sum: ba9af608830dd02cfc01bf92c95b873c
+SHA256: 2ab67fb3adeafe25bf12bd8502287e55294374a5e06366a22d0a0faf96d864e0
+Description: Fixes SSL/TLS protocols and communications from iPhoneOS 2 to iOS 9, so that these devices can talk to any modern cypher-enabled server or service again.
+Name: TLSFix
+Author: nfzerox, Requis
+Conflicts: com.tlsfix
+
+Package: com.victorlobe.appstorefix
+Version: 2
+Section: Tweaks
+Maintainer: Victor <contact@victorlobe.me>
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm
+Filename: ./debs/com.victorlobe.appstorefix_2_iphoneos-arm.deb
+Size: 73918
+MD5sum: 8a8274220fcf066522eca33961fce13e
+SHA256: 3320d96f59a3a20a0fc5489a59ebc2493242076b07ea06592cd102f01238c608
+Description: Fixes the App Store on iOS 3,5 and 6!
+Name: AppStoreFix
+Author: Victor <contact@victorlobe.me>
+Depiction: http://repo.victorlobe.me/depictions/depiction.html?id=com.victorlobe.appstorefix
+Conflicts: com.skyglow.itunesstorex, net.nekokawa.appstorefix
+Installed-Size: 168
+
+Package: com.victorlobe.veteris
+Version: 4.0.1
+Section: Utilities
+Maintainer: Victor
+Depends: firmware (>= 5.0), com.victorlobe.veterishelper
+Architecture: iphoneos-arm
+Filename: ./debs/com.victorlobe.veteris_4.0.1_iphoneos-arm.deb
+Size: 3136858
+MD5sum: 8199b8dd3945e5fbf4bebf341957848e
+SHA256: 3904f69fd00bdea703459a9e577132e6717fabaefd099af8ae5f5da829f9c4dd
+Description: Welcome back!
+Name: Veteris
+Author: Victor
+Depiction: http://repo.victorlobe.me/depictions/depiction.html?id=com.victorlobe.veteris
+Conflicts: com.ixmoe.1pwn.veteris, moe.yzu.veterishelper
+Replaces: com.ixmoe.1pwn.veteris, moe.yzu.veterishelper
+Homepage: http://www.veteris.victorlobe.me/
+Icon: file:///Applications/Veteris.app/AppIcon57x57@2x.png
+Compatibility: iOS 5.0+
+Installed-Size: 5976
+
+Package: eu.heinelt.ifile
+Version: 2.2.0-1
+Section: System
+Maintainer: Carsten Heinelt <ifile@iphone.heinelt.eu>
+Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
+Architecture: iphoneos-arm
+Filename: ./debs/eu.heinelt.ifile_2.2.0-1_iphoneos-arm.deb
+Size: 9751882
+MD5sum: 88766f339cc7b150e356331e4594db7b
+SHA256: 9f8c38312d7676a88507dcac6196261185928c9b38666bab80ac50fcfb8c3c61
+Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. It allows direct viewing of files of various types, e.g. movies, sound, text, HTML, Microsoft types, PDF, ZIP. For PDF files direct jumping to pages is possible. ZIP packing and unpacking is also supported. Files can be sent as email attachments. Text files and property lists can be edited. Folders and files can be bookmarked. In addition, files can be uploaded and downloaded from iFile's built-in web server.
+Name: iFile
+Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
+Installed-Size: 20224
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
+dev: carsten
+Tag: purpose::uikit, cydia::commercial
+
+Package: mobilesubstrate
+Version: 0.9.7100~b3
+Section: System
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Depends: com.saurik.substrate.safemode
+Architecture: iphoneos-arm
+Filename: ./debs/mobilesubstrate_0.9.7100~b3_iphoneos-arm.deb
+Size: 2496184
+MD5sum: 0664f73413b6dd21ee23ad8584c4f389
+SHA256: 653f4ce23b2e12641de843d52be7370804c5b062cb27221c019512ab372af6e2
+Description: powerful code insertion platform
+Name: Cydia Substrate
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
+Pre-Depends: dpkg (>= 1.14.25-8)
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
+Replaces: cycript (<= 0.9.594)
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap
+Priority: optional
+
+Package: net.angelxwind.appsync40plus
+Version: 1.2.2
+Section: Tweaks
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Architecture: iphoneos-arm
+Filename: ./debs/net.angelxwind.appsync40plus.deb
+Size: 9202
+MD5sum: 4450d7c556bdf0504b14d678da5e5362
+SHA256: 0d20fd163cfa37f4e63f054516d9b7c0f68801cf517594dbe2145faf50c5c8a7
+Description: AppSync for iOS 4 allows you to sync and install unsigned iOS applications. Only for iOS 4.
+Name: AppSync for iOS 4.0
+Author: Karen/あけみ, Dissident <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsync40plus
+Conflicts: us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
+Replaces: us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
+Pre-Depends: firmware (>= 4.0), firmware (<< 5.0)
+Provides: appsync, us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
+Homepage: https://cydia.akemi.ai/
+
+Package: org.thebigboss.auxo
+Version: 1.4-2
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 5.1), mobilesubstrate, preferenceloader, applist
+Architecture: iphoneos-arm
+Filename: ./debs/org.thebigboss.auxo_1.4-2_iphoneos-arm.deb
+Size: 1818388
+MD5sum: 3c0bf3ae0ee269bf84bb65fb1075c214
+SHA256: 9580ce7adf99206384456c0fd8c97085b5e8ef0867757acfa60353d2eaffb9b6
+Description: A fantastic re-imagined multitasking bar!
+Name: Auxo
+Author: A3tweaks <A3tweaks@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxoDp
+Installed-Size: 2127
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxoDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: a3tweaks
+Tag: cydia::commercial, purpose::extension
+Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
+
+Package: preferenceloader
+Version: 2.2.6
+Section: System
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/preferenceloader_2.2.6.deb
+Size: 36414
+MD5sum: 551c39b9d6d58be5ad82e81a59a1715f
+SHA256: 335fff25ff13021889ba856ce84fbc23ba25569f1c6cc65a3e113b433b1ed60f
+Description: load preferences in style
+Name: PreferenceLoader
+Author: Sam Bingner <maintainer@sbdhi.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+dev: dustinhowett
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Tag: role::hacker, purpose::library
+Installed-Size: 526
+
+Package: ultrasn0w
+Version: 1.2.8
+Section: Utilities
+Maintainer: YaYPIXXO <viggo@lekdorf.com>
+Depends: firmware (>= 3.0), mobilesubstrate (>= 0.9.3209-1), firmware (<< 7.0)
+Architecture: iphoneos-arm
+Filename: ./debs/ultrasn0w.deb
+Size: 12474
+MD5sum: c520e7730283e140dd38a43fefe9b7ea
+SHA256: 31edd7f52ae7400e599848626af141b18459c9cbed95ee6b95c777c6fd9a88e4
+Description: iPhone Dev Team's iPhone 4, 3G and 3GS software unlock, now with added PwnApple.
+Name: ultrasn0w
+Author: Dev Team <blog@iphone-dev.org>
+Depiction: http://yaypixxo.com/depictions/?p=ultrasn0w
+Conflicts: blacksn0w, yellowsn0w, gsc.wildcat
+
+Package: us.hackulo.appsync31
+Version: 1.0.1
+Section: Hackulo.us
+Maintainer: Genius Blog <appsync@hackulo.us>
+Depends: com.hackulo.us.sourcegui
+Architecture: iphoneos-arm
+Filename: ./debs/appsync31-1.0.1.deb
+Size: 296542
+MD5sum: 534080636c26e40d3efbdf195f3bfdfb
+SHA256: c0975018be2f1fe73eaeadce9a3c4ead17ab01b08eb41bd11a82b2f83c60fb70
+Description: AppSync patches the installd file on your device
+Name: AppSync for OS 3.1
+Author: Reilly <appsync@hackulo.us>
+Depiction: http://hackulo.us/depict/appsync31/
+Priority: standard
+Pre-Depends: firmware (= 3.1) | firmware (= 3.1.1) | firmware (= 3.1.2) | firmware (= 3.1.3) | firmware (= 3.1.4)
+Sponsor: Hackulo.us <http://hackulo.us>
+
