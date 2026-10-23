@@ -1,8 +1,8 @@
-Origin: Reposi3
-Label: Reposi3
+Origin: alkoofee
+Label: alkoofee
 Suite: stable
-Version: 1.0
+Version: 1
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: Reposi3 - a cydia repo template
+Description: Comrades have easy access to a lot in one with this repo.
